@@ -31,6 +31,8 @@ cmake ../ -DBUILD_EXAMPLES=true
 make
 sudo make install 
 ```
+``this step will cost almost 10 minutes depending on your network, so be patient to wait! ``
+
 Sometimes the network is not good and you need to try several times. Test the installed librealsense
 ``ATTENTION``: Please note that the wiring must be type-c 3.0, otherwise an error may occur and the image data cannot be displayed.
 #### 2. Run
@@ -166,7 +168,7 @@ https://github.com/IntelRealSense/librealsense/tree/master/wrappers/python/examp
 ```
 python pyrealsense2/realsense.py          # Real-time display aligned RGBD information
 python pyrealsense2/aliged_save.py        # Real-time display and save aligned Realsense RGBD information
-python pyrealsense2/realsense_recorder.py # Realsense official code for real-time display and save RGBD point cloud
+python pyrealsense2/d400.py               # realsense d400 series drivers (d405, d435i)
 ```
 
 ## Orbbec

@@ -6,7 +6,7 @@ import re
 import threading
 
 """
-Real-time display and save aligned Realsense RGBD information
+Real-time display and save aligned Realsense RGBD information for d435i 
 """
 
 class Realsense:

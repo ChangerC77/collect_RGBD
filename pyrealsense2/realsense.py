@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 
 """
-Real-time display aligned RGBD information
+Real-time display aligned RGBD information for d435i 
 """
 
 class Realsense:
