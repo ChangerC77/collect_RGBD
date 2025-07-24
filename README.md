@@ -1,5 +1,12 @@
 # Collect RGBD Information
-## Realsense
+
+## Documents
+see more details in
+1. Intel_RealSense_LiDAR_L515_Datasheet_Rev003.pdf
+2. Intel-RealSense-D400-Series-Datasheet-October-2024.pdf
+3. IntelRealSenseTrackingT265Datasheet.pdf
+
+## Realsense D400 series
 ### 1. Realsense-SDK
 #### Homepage
 https://github.com/IntelRealSense/librealsense
@@ -70,7 +77,7 @@ rosbag play -l xxx.bag
 ```
 <img src="img/4.png">
 
-#### 4. Then output the internal reference information of rgb and depth respectively
+#### 3. Then output the internal reference information of rgb and depth respectively
 + D455 RGB internal parameters (Used for Point Cloud Fusion)
 ```
 rostopic echo /device_0/sensor_1/Color_0/info/camera_info
@@ -148,12 +155,15 @@ fx & 0 & cx\\
 0 & 0 & 1
 \end{bmatrix}$$
 
-### 2. Pyrealsense2
-#### website
+## Realsense T265
+see more deails in `T265.md`
+
+## 2. Pyrealsense2
+### website
 https://github.com/IntelRealSense/librealsense/blob/master/wrappers/python/readme.md
 
 
-#### Install
+### Install
 ```
 pip install pyrealsense2
 ```
@@ -161,7 +171,7 @@ change the source
 ```
 pip install pyrealsense2 -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
 ```
-### Code Examples
+## Code Examples
 Code examples
 https://github.com/IntelRealSense/librealsense/tree/master/wrappers/python/examples
 ### Run
