@@ -1,10 +1,9 @@
 # Collect RGBD Information
 
 ## Documents
-see more details in
-1. Intel_RealSense_LiDAR_L515_Datasheet_Rev003.pdf
-2. Intel-RealSense-D400-Series-Datasheet-October-2024.pdf
-3. IntelRealSenseTrackingT265Datasheet.pdf
+1. [Intel Realsense D400 Series](https://github.com/ChangerC77/collect_RGBD/blob/master/Intel-RealSense-D400-Series-Datasheet-October-2024.pdf)
+2. [Intel Realsense T265](https://github.com/ChangerC77/collect_RGBD/blob/master/IntelRealSenseTrackingT265Datasheet.pdf)
+3. [Intel Realsense L515](https://github.com/ChangerC77/collect_RGBD/blob/master/Intel_RealSense_LiDAR_L515_Datasheet_Rev003.pdf)
 
 ## Realsense D400 series
 ### 1. Realsense-SDK
@@ -156,8 +155,7 @@ fx & 0 & cx\\
 \end{bmatrix}$$
 
 ## Realsense T265
-see more deails in `T265.md`
-
+see more deails in [T265 Usage](https://github.com/ChangerC77/collect_RGBD/blob/master/T265.md)
 ## 2. Pyrealsense2
 ### website
 https://github.com/IntelRealSense/librealsense/blob/master/wrappers/python/readme.md
